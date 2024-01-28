@@ -28,6 +28,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  min-height:600px;
 }
 
 .container {
@@ -53,20 +54,15 @@ body {
 
 p{
   color:var(--grayblue);
-  font-weight:700px;
+  font-weight:400;
 }
 
 h1{
   color:var(--darkblue);
   font-size: 20px;
-  font-weight:400px;
+  font-weight:700;
   font-size: 24px;
   margin-bottom: 1rem;
 }
 
-@media (max-width: 600px) {
-  .container{
-
-  }
-}
 
